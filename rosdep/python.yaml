@@ -193,6 +193,13 @@ mercurial:
   osx:
     pip:
       packages: [mercurial]
+minimalmodbus:
+  debian:
+    pip:
+      packages: [minimalmodbus]
+  ubuntu:
+    pip:
+      packages: [minimalmodbus]
 paramiko:
   alpine: [py-paramiko]
   arch: [python2-paramiko]
