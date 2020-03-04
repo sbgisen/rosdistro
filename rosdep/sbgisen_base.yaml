@@ -1,0 +1,3 @@
+beignet:
+  ubuntu:
+    xenial: [beignet-dev]
