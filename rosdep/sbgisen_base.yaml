@@ -10,4 +10,5 @@ quanergy_client:
     xenial: [quanergy-client]
 libfreenect2:
   ubuntu:
-    xenial: [libfreenect2]
+    xenial: [ros-kinetic-libfreenect2]
+    # add sources.list "deb http://lcas.lincoln.ac.uk/ubuntu/main xenial main"
