@@ -4,3 +4,10 @@ beignet:
 nvidia-cuda-9-0:
   ubuntu:
     xenial: [cuda-toolkit-9-0]
+# original pkgs
+quanergy_client:
+  ubuntu:
+    xenial: [quanergy-client]
+libfreenect2:
+  ubuntu:
+    xenial: [libfreenect2]
