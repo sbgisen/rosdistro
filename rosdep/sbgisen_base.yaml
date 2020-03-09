@@ -8,7 +8,11 @@ nvidia-cuda-9-0:
 quanergy_client:
   ubuntu:
     xenial: [quanergy-client]
-libfreenect2:
+ros-libfreenect2:
   ubuntu:
     xenial: [ros-kinetic-libfreenect2]
     # add sources.list "deb http://lcas.lincoln.ac.uk/ubuntu/main xenial main"
+libfreenect2:
+  ubuntu:
+    xenial: [libfreenect2]
+    # add sources.list "deb file:/tmp/debs /"
