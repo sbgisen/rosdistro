@@ -1,13 +1,4 @@
-beignet:
-  ubuntu:
-    xenial: [beignet-dev]
-nvidia-cuda-9-0:
-  ubuntu:
-    xenial: [cuda-toolkit-9-0]
 # original pkgs
-quanergy_client:
-  ubuntu:
-    xenial: [quanergy-client]
 ros-libfreenect2:
   ubuntu:
     xenial: [ros-kinetic-libfreenect2]
@@ -16,3 +7,7 @@ libfreenect2:
   ubuntu:
     xenial: [libfreenect2]
     # add sources.list "deb file:/tmp/debs /"
+minimalmodbus-pip:
+  ubuntu:
+    pip:
+      packages: [Minimalmodbus==0.7.0]
