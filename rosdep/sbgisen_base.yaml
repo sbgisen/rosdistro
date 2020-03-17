@@ -10,4 +10,4 @@ libfreenect2:
 minimalmodbus-pip:
   ubuntu:
     pip:
-      packages: [Minimalmodbus==0.7.0]
+      packages: [Minimalmodbus]
